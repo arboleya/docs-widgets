@@ -1,0 +1,21 @@
+{
+  "name": "docs-widgets",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "wrap": "tsx scripts/wrap-widgets.ts",
+    "pretest": "pnpm wrap",
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fuels": "^0.88.1",
+    "glob": "^10.3.12",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.2"
+  }
+}

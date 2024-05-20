@@ -1,0 +1,7 @@
+node_modules
+.history
+.fuels
+
+sway/out/**
+src/sway/*
+src/widgets/**/*.wrapped.ts
